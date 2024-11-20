@@ -1,0 +1,75 @@
+.ourcourses{
+    background-color: #fff;
+    padding: 40px 100px;
+}
+.ourcourses .container{
+
+}
+.title span{
+    color: #1eb2a6;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.title h2{
+    font-size: 45px;
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+.title{
+    text-align: center;
+}
+.ourcourses .content{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    gap: 10px; 
+    padding: 10px;
+    margin-top: 30px;
+}
+.ourcourses .content .box{
+    background-color: #1eb2a6;
+    box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+    padding: 30px 20px;
+    transition: .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 6px;
+}
+.ourcourses .content .box:hover{
+    background-color: #777;
+    cursor: pointer;
+    color: #fff;
+}
+.ourcourses .content .box:hover .ourcourses .content .box .info span:last-of-type{
+    background-color: #fff;
+    color: #1eb2a6;
+}
+.ourcourses .content .box img{
+   width: 100px;
+   height: 100px;
+  
+}
+.ourcourses .content .box .info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.ourcourses .content .box .info span:first-of-type{
+    font-weight: 500;
+    line-height: 30px;
+    margin: 20px 0;
+    font-size:20px;
+}
+.ourcourses .content .box .info span:last-of-type{
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    color: #1eb2a6;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 20px;
+    width: 130px;
+    margin-left: 20px;
+}

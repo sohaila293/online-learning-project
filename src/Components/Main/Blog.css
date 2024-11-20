@@ -1,0 +1,45 @@
+.blog{
+    padding: 40px 100px;
+    background: #F8F8F8;
+  }
+  .blog .content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    margin-top: 70px;
+  }
+  .blog .content .card .card-title span {
+    display: flex;
+    align-items: center;
+    color: #3cb371; 
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  
+  .blog .content .card .card-title span i {
+    margin-right: 5px;
+  }
+  
+  .blog .content .card .card-text h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .blog .content .card .card-text p {
+    font-size: 14px;
+    color: #666;
+  }
+  .blog .content .card .card-body{
+    padding: 20px !important;
+  }
+  .blog .content .card {
+    width: 400px !important;
+    background: #fff;
+    line-height: 2;
+  }
+  .blog .content .card img{
+    width: 100%;
+  }
+  

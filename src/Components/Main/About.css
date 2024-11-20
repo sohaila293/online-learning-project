@@ -1,0 +1,78 @@
+.about{
+  
+    background: #F8F8F8;
+}
+.about .container{
+    display: flex;
+    gap: 50px;
+    padding: 50px 100px;
+}
+.about .container .image{
+   
+}
+.about .container .image img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+.about .container .content{
+    margin-top: 150px;
+}
+.about .container .content span{
+    color: #1eb2a6;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.about .container .content h2{
+    font-size: 45px;
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+.about .container .content .items .item{
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 20px;
+    transition: .5s;
+    display: flex;
+    gap: 20px;
+    line-height: 1.5;
+}
+.about .container .content .items .item:hover{
+    background-color: #1eb2a6;
+    box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+    color: #fff;
+    cursor: pointer;
+}
+.about .container .content .items .item .image img{
+    height: 70px;
+    width: 70px;
+}
+.aboutfooter{
+    background:  linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/aboutfooter.webp");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 30px;
+    line-height: 2;
+}
+.aboutfooter .container .item{
+    display: flex;
+    gap: 20px;
+}
+.aboutfooter .container .item img{
+
+}
+.aboutfooter .container .item .ifo{
+
+}
+.aboutfooter .container .item .info h3{
+    font-weight: 800;
+    font-size: 38px;
+    color: #fff;
+}
+.aboutfooter .container .item .info span{
+    color: #fff;
+    font-size: 18px;
+}

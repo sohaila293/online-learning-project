@@ -1,0 +1,102 @@
+.header{
+    background: url("../../images/headerbg.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background-position: top  center;
+    padding: 20px 100px;
+    position: relative;
+    background-attachment: fixed;
+}
+.header .Container{
+
+}
+.header .Container nav{
+
+}
+.header .Container nav .logo{
+    display: flex;
+    flex-direction: column;
+   gap: 6px;
+}
+.header .Container nav .logo span:first-of-type{
+    font-size: 32px;
+    font-weight: 600;
+}
+.header .Container nav .logo span:last-of-type{
+    font-size: 17px;
+}
+.header .Container nav .content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: #C1DDE2;
+    align-items: center;
+    padding-left: 20px;
+}
+.header .Container nav .content  a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+.header .Container nav .content a:last-of-type{
+        text-decoration: none;
+        color: #fff;
+        background-color: #1eb2a6;
+    -webkit-clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
+    color: #fff;
+    padding: 30px 70px;
+}
+.header .Container .home{
+position: absolute;
+top: 50%;
+left: 31%;
+transform: translateX(-50%);
+line-height: 1.5;   
+}
+.header .Container .home span{
+    font-weight: bold;
+    font-size: 20px;
+}
+.header .Container .home h1{
+    text-transform: capitalize;
+    font-size: 42px;
+    font-weight: 600;
+}
+.header .Container .home p{
+    font-size: 17px;
+    text-transform: capitalize;
+}
+.header .Container .home .btns{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.header .Container .home .btns button:first-child{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #1eb2a6;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.header .Container .home .btns button:last-child{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #fff;
+    color:#1eb2a6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 8px;
+}
